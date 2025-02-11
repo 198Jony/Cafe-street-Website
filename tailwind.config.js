@@ -5,7 +5,7 @@
         fontFamily:{
           serif : [ 'Poppins', 'serif'],
         },
-       
+        
       extend: {},
     },
     plugins: [],
