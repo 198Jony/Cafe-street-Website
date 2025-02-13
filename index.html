@@ -17,9 +17,9 @@
 </head>
 <body class="font-serif">
 
-     <header class="bg-orange-100 pt-2 pb-5 lg:bg-[url('images/bg_img_hero.png')] bg-right-top bg-no-repeat lg:bg-[length:350px_300px] xl:bg-[length:500px_400px]">
+     <header class="bg-orange-100 pt-2 lg:bg-[url('images/bg_img_hero.png')] bg-right-top bg-no-repeat lg:bg-[length:350px_300px] xl:bg-[length:500px_400px]">
          <!--Navbar--> 
-        <div class="container mx-auto w-10/12">
+        <div class="container mx-auto w-11/12">
             <div class="navbar">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -86,22 +86,21 @@
                 </div>
               </div>
         </div>
+        <div class=" lg:bg-[url('images/bg_img_hero.png')] bg-left-bottom bg-no-repeat lg:bg-[length:350px_300px] xl:bg-[length:500px_400px] w-full h-96"></div>
+       
         
-        <div class=" lg:bg-[url('images/bg_img_hero.png')] bg-left-bottom bg-no-repeat lg:bg-[length:350px_300px] xl:bg-[length:500px_400px] w-full h-96">
-        </div>
      </header>
 
      <main>
-        <section class="relative ">
-            <div class="container mx-auto w-11/12 bg-orange-200  absolute h-full lg:h-72  -top-16 left-10 rounded-3xl">
-            </div>
-            <div class="container mx-auto w-10/12 absolute -top-72 left-8 md:left-16 lg:-top-60 lg:left-20 xl:-top-72 xl:left-24">
+        
+        <section>
+          <div class="container mx-auto w-11/12 -translate-y-72 md:-translate-y-72 lg:-translate-y-56  xl:-translate-y-72 ">
             <div>
-                <h2 class="text-red-950 font-semibold text-3xl text-center lg:text-left">Popular <span class="border-b-4 border-orange-400">Now</span></h2>
+                <h2 class="text-red-950 font-semibold text-3xl text-center lg:text-left ">Popular <span class="border-b-4 border-orange-400">Now</span></h2>
             </div>
-            <div class="md:grid md:grid-cols-2 md:gap-5 lg:grid lg:grid-cols-3  justify-between mt-5">
+            <div class="grid grid-cols-1 md:grid md:grid-cols-2 md:gap-5 lg:grid lg:grid-cols-3 mt-10">
                  <!--card1-->
-                 <div class="card card-compact bg-base-100 w-full shadow-xl ">
+                 <div class="card card-compact bg-base-100 w-full shadow-xl mb-5 md:mb-0">
                  <figure class="p-4 relative">
                  <div class="bg-white px-2 py-1 rounded-full absolute top-8 left-10 text-red-950 font-bold text-sm">4.8<i class="fa-solid fa-star text-xs text-orange-300 ml-2"></i></div>
                  <img class="w-full rounded-lg"
@@ -125,7 +124,7 @@
                  </div>
                  </div>
                  <!--card2-->
-                 <div class="card card-compact bg-base-100 w-full shadow-xl ">
+                 <div class="card card-compact bg-base-100 w-full shadow-xl mb-5 md:mb-0">
                  <figure class="p-4 relative">
                     <div class="bg-white px-2 py-1 rounded-full absolute top-8 left-10 text-red-950 font-bold text-sm">4.8<i class="fa-solid fa-star text-xs text-orange-300 ml-2"></i></div>
                     <img class="w-full rounded-lg"
@@ -174,6 +173,52 @@
                   </div>               
                   </div>
                   </div>
+        </section>
+        <!--Delivery Section-->
+        <section>
+          <div class="container mx-auto w-11/12">
+              <div>
+                <h2 class="text-red-950 font-semibold text-3xl text-center lg:text-left ">How to use delivery <span class="border-b-4 border-orange-400">service</span></h2>
+              </div>
+              <div class="md:grid md:grid-cols-2 lg:grid lg:grid-cols-3 mt-16 gap-5">
+                 <div class="text-center mb-10 lg:mb-0">
+                    <img class="mx-auto" src="images\image (1).png" alt="">
+                    <h4 class="text-2xl font-semibold mt-5 text-black">choose your coffee</h4>
+                    <p class="text-lg text-black font-normal mt-2">there are 20+ coffees for you</p>
+                 </div>
+                 <div  class="text-center mb-10 lg:mb-0">
+                  <img class="mx-auto" src="images\food-truck 1.png" alt="">
+                  <h4 class="text-2xl font-semibold mt-5 text-black">we delivery it to you</h4>
+                  <p class="text-lg text-black font-normal mt-2">Choose delivery service</p>
+               </div>
+               <div class="text-center">
+                <img class="mx-auto" src="images\coffee-cup 2.png" alt="">
+                <h4 class="text-2xl font-semibold mt-5 text-black">Enjoy your coffee</h4>
+                <p class="text-lg text-black font-normal mt-2">Choose delivery service</p>
+             </div>
+              </div>
+          </div>
+        </section>
+
+        <!--Abous us section-->
+        <section class="bg-red-500 pt-20">
+            <div class="container mx-auto w-11/12">
+                <div class="flex justify-around items-center relative -top-36">
+                    <div>
+                       <img src="images\unsplash_3n3mPoGko8g.png" alt="">
+                    </div>
+                    <div>
+                       <div>
+                          <h2 class="text-red-950 font-semibold text-3xl text-center lg:text-left ">About <span class="border-b-4 border-orange-400">us</span></h2>
+                       </div>
+                       <div class="mt-5">
+                        <h4 class="text-2xl font-semibold text-black">We provide quality coffee,<br> and ready to deliver.</h4>
+                        <p class="text-lg text-gray-400 font-normal mt-5">We are a company that makes and distributes<br> delicious drinks. our main product is made with a<br> secret recipe and available in stores worldwide.</p>
+                        <button class="bg-red-950 text-orange-400 text-sm font-bold px-4 py-2 rounded-full mt-5">Get your coffee</button>
+                       </div>
+                    </div>
+                </div>
+            </div>
         </section>
      </main>
 
